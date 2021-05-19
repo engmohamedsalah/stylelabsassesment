@@ -1,0 +1,67 @@
+<!-- <h1>{{title}}</h1>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/assets">Assets</a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages> -->
+
+<mat-sidenav-container>
+  <mat-sidenav  #sidenav role="navigation">
+   <mat-nav-list>
+    <a mat-list-item routerLink="/home">
+      <mat-icon class="icon">home</mat-icon>  
+        <span class="label">Home</span>
+    </a>
+    <a mat-list-item routerLink="/assets">
+      <mat-icon class="icon">Assets</mat-icon>  
+      <span class="label">Assets</span>
+    </a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+     <div fxHide.gt-xs>
+       <button mat-icon-button>
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+     <div style="padding-right: 10%">
+       <a>
+         Assets Mangement 
+       </a>
+     </div>
+     <div fxFlex fxLayout fxLayoutAlign="flex-end"  fxHide.xs>
+        <ul fxLayout fxLayoutGap="20px" class="navigation-items">
+           
+            <li>
+              <a  routerLink="/home">
+                  <mat-icon class="icon">home</mat-icon>
+                  <span class="label">Home</span>
+              </a>
+            </li>
+            <li>
+                <a routerLink="/assets">
+                    <mat-icon class="icon">dashboard</mat-icon>
+                    <span class="label">Assets</span>
+                </a>
+              </li>
+           
+        </ul>
+     </div>
+    </mat-toolbar>
+    <main>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+<div style="text-align:center">
+  <h1>Angular Content Management System</h1>
+   
+  <router-outlet></router-outlet>
+  <br>
+</div>
+<div style="text-align:center">
+  <app-messages></app-messages>
+</div>

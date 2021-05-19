@@ -1,0 +1,14 @@
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\bin\Debug\WebExperience.DAL.dll.config
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\bin\Debug\WebExperience.DAL.dll
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\bin\Debug\WebExperience.DAL.pdb
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\bin\Debug\EntityFramework.dll
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\bin\Debug\EntityFramework.xml
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\obj\Debug\WebExperience.DAL.csproj.CoreCompileInputs.cache
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\obj\Debug\WebExperience.DAL.dll
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\obj\Debug\WebExperience.DAL.pdb
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\obj\Debug\WebExperience.DAL.csprojResolveAssemblyReference.cache
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\obj\Debug\WebExperience.DAL.Migrations.Asset.resources
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\obj\Debug\WebExperience.DAL.csproj.GenerateResource.Cache
+E:\Projects\StyleLabsAssesment\SourceCode\WebExperience.DAL\obj\Debug\WebExperience.DAL.Migrations.Asset1.resources

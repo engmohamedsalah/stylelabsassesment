@@ -1,0 +1,12 @@
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\bin\Debug\Helper.dll
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\bin\Debug\Helper.pdb
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\obj\Debug\Helper.dll
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\obj\Debug\Helper.pdb
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\bin\Debug\ImageProcessor.dll
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\bin\Debug\ImageProcessor.xml
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\bin\Debug\CsvHelper.dll
+E:\Projects\StyleLabsAssesment\SourceCode\Helper\bin\Debug\CsvHelper.xml

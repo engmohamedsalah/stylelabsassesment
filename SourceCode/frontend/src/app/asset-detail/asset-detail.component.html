@@ -1,0 +1,52 @@
+<div *ngIf="selectedAsset">
+  <h2>{{ selectedAsset.FileName | uppercase }} Details</h2>
+  <div ><span>id: </span>{{selectedAsset.Id}}</div>
+ 
+  <div>
+    <label>File Name: </label>
+    <input *ngIf="IsEdit"   [(ngModel)]="selectedAsset.FileName" />
+    <label>You chose {{selectedAsset.FileName}}</label>
+  </div>
+  <div>
+      <label>Mime Type:</label>
+      <input  *ngIf="IsEdit"   [(ngModel)]="selectedAsset.MimeType" placeholder="MimeType"/>
+      <label>You chose {{selectedAsset.MimeType}}</label>
+  </div>
+  <div>
+      <label>Created By:</label>
+      <input  *ngIf="IsEdit"   [(ngModel)]="selectedAsset.CreatedBy" placeholder="CreatedBy"/>
+      <label>You chose {{selectedAsset.CreatedBy}}</label>
+  </div>
+  <div>
+      <label>Email:</label>
+      <input   *ngIf="IsEdit"   [(ngModel)]="selectedAsset.Email" placeholder="name"/>
+      <label>You chose {{selectedAsset.Email}}</label>
+  </div>
+  <div>
+      <label>Country:</label>
+      <input  *ngIf="IsEdit"   [(ngModel)]="selectedAsset.Country" placeholder="Country"/>
+      <label >You chose {{selectedAsset.Country}}</label>
+  </div>
+  <div>
+      <label>Description:</label>
+        <textarea  *ngIf="IsEdit"   rows="5" cols="100"  [(ngModel)]="selectedAsset.Description" placeholder="Description">
+
+          </textarea>
+          <br>
+          <label style="width: 80%;">You chose {{selectedAsset.Description}}</label>
+  </div>
+  
+  
+ 
+  
+
+  <button (click)="goBack()" button="submit" mat-raised-button color="primary">
+      <mat-icon>home</mat-icon> Go back
+  </button>
+  
+  <!-- <button (click)="save()" button="submit" mat-raised-button color="primary">
+      <mat-icon>add</mat-icon> Save
+  </button> -->
+
+  
+</div>

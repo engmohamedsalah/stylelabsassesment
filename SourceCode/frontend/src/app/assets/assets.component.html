@@ -1,0 +1,73 @@
+<h2>My Assets</h2>
+
+<!-- 
+<table mat-table [dataSource]="asyncAssets"   class="mat-elevation-z8">
+  
+  <ng-container matColumnDef="FileName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> File Name </th>
+      
+      <td mat-cell *matCellDef="let asset"> {{asset.FileName}} </td>
+  </ng-container>
+  <ng-container matColumnDef="MimeType">
+      <th mat-header-cell *matHeaderCellDef> Mime Type </th>
+      <td mat-cell *matCellDef="let asset"> {{asset.MimeType}} </td>
+  </ng-container>
+  <ng-container matColumnDef="CreatedBy">
+      <th mat-header-cell *matHeaderCellDef> Created By  </th>
+      <td mat-cell *matCellDef="let asset"> {{asset.CreatedBy}} </td>
+  </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;">
+  </table> -->
+<!--   
+  <div class="has-text-centered">
+      <div class="spinner" [ngClass]="{ 'hidden': !loading }"></div>
+      <pagination-controls (pageChange)="getPage($event)" id="server"></pagination-controls>
+  </div> -->
+
+
+ 
+
+  <div class="container">
+      <table class="mat-elevation-z8 mat-table" role="grid">
+          <thead>
+              <tr class="mat-header-row">
+                  <th class="mat-header-cell">File Name</th>
+                  <th class="mat-header-cell">Mime Type</th>
+                  <th class="mat-header-cell">CreatedBy</th>
+                  <th class="mat-header-cell">  </th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr class="mat-row" *ngFor="let item of asyncAssets | async |paginate: { id: 'server', itemsPerPage: 10, currentPage: page, totalItems: totalRecords }">
+                  <td class="mat-cell">{{item.FileName}}</td>
+                  <td class="mat-cell">{{item.MimeType}}</td>
+                  <td class="mat-cell">{{item.CreatedBy}}</td>
+                  <td class="mat-cell">
+                    
+                    <a type="button" routerLink="/assetDetail/{{item.Id}}/read">
+                      <mat-icon class="icon">folder</mat-icon>
+                     </a> 
+                     <!-- <a type="button" routerLink="/assetDetail/{{item.Id}}/edit">
+                        <mat-icon class="icon">edit</mat-icon>
+                       </a>  -->
+                   
+                    <!-- <a type="button" (click)="delete(item)">
+                     <mat-icon class="icon">delete</mat-icon>
+                    </a> 
+                     -->
+                  </td>
+                  
+              </tr>
+          </tbody>
+      </table>
+      <pagination-controls (pageChange)="getPage($event)" id="server"></pagination-controls>
+  </div>
+
+
+<!-- 
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
